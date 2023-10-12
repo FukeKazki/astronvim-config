@@ -21,6 +21,24 @@ return {
         -- "prettier",
         -- "stylua",
       })
+      opts.handlers = {
+        deno_fmt = function()
+          local null_ls = require "null-ls"
+          null_ls.register(null_ls.builtins.formatting.deno_fmt.with {
+            condition = function(util) return util.root_has_file "deno.json" or util.root_has_file "deno.jsonc" end,
+          })
+        end,
+        eslint_d = function()
+          local null_ls = require "null-ls"
+          null_ls.register(null_ls.builtins.diagnostics.eslint_d.with {
+            condition = function(util)
+              return util.root_has_file ".eslintrc"
+                or util.root_has_file ".eslintrc.json"
+                or util.root_has_file ".eslintrc.js"
+            end,
+          })
+        end,
+      }
     end,
   },
   {
