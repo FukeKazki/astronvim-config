@@ -23,4 +23,8 @@ return {
   -- color scheme plugin
   -- { import = "astrocommunity.colorscheme.nightfox-nvim" },
   { import = "astrocommunity.colorscheme.nord-nvim" },
+  -- utility
+  { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
+  -- git
+  { import = "astrocommunity.git.octo-nvim" },
 }
