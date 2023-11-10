@@ -21,5 +21,6 @@ return {
   { import = "astrocommunity.editing-support.true-zen-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
   -- color scheme plugin
-  { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  -- { import = "astrocommunity.colorscheme.nightfox-nvim" },
+  { import = "astrocommunity.colorscheme.nord-nvim" },
 }
