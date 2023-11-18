@@ -24,4 +24,19 @@ return {
     },
     config = true,
   },
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "User AstroFile",
+    config = function()
+      require("copilot").setup {
+        require("copilot").setup {
+          filetypes = {
+            markdown = true,
+          },
+          suggestion = { auto_trigger = true, debounce = 150 },
+        },
+      }
+    end,
+  },
 }

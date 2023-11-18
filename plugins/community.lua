@@ -2,7 +2,6 @@ return {
   "AstroNvim/astrocommunity",
   -- copilot plugin
   { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.completion.copilot-lua" },
   -- cmp plugin
   { import = "astrocommunity.completion.cmp-cmdline" },
   -- language plugin
