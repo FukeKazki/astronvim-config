@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.pack.angular" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.astro" },
   -- better comment plugin
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
@@ -21,7 +22,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   -- color scheme plugin
   -- { import = "astrocommunity.colorscheme.nightfox-nvim" },
-  { import = "astrocommunity.colorscheme.nord-nvim" },
+  -- { import = "astrocommunity.colorscheme.nord-nvim" },
   -- utility
   { import = "astrocommunity.utility.telescope-live-grep-args-nvim" },
   -- git
