@@ -49,9 +49,4 @@ return {
       }
     end,
   },
-  {
-    "FukeKazki/gdoc.vim",
-    event = "VeryLazy",
-    build = "python3 ./install.py",
-  },
 }
