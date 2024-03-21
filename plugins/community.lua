@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.php" },
   -- better comment plugin
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.comment-box-nvim" },
