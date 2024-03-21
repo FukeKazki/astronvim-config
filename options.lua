@@ -10,6 +10,7 @@ return {
     helplang = "ja", -- sets vim.opt.helplang
     backup = false,
     hidden = true,
+    swapfile = false, -- set vim.opt.noswapfile
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
